@@ -1,0 +1,43 @@
+.section {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.intro {
+  margin: 0;
+  color: #475569;
+  max-width: 42rem;
+}
+
+.group {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.group h2 {
+  margin: 0 0 1rem;
+  font-size: 1.05rem;
+}
+
+.group ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.group a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.group a:hover {
+  text-decoration: underline;
+}
