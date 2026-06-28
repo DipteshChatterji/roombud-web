@@ -1,0 +1,17 @@
+:root {
+  /* Sync with Roombud_frontend_mobile/src/theme/tokens.ts → darkColors */
+  color-scheme: dark;
+  --color-background: #0b1220;
+  --color-surface: #111827;
+  --color-text: #f9fafb;
+  --color-text-secondary: #9ca3af;
+  --color-text-muted: #6b7280;
+  --color-border: #1f2937;
+  --color-primary: #7c3aed;
+  --color-primary-pressed: #6d28d9;
+  --color-secondary: #06b6d4;
+  --color-secondary-pressed: #0891b2;
+  --color-accent: #22d3ee;
+  --color-danger: #96231a;
+  --color-overlay: rgba(0, 0, 0, 0.7);
+}

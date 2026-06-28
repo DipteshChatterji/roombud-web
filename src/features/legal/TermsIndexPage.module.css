@@ -10,15 +10,13 @@
 
 .intro {
   margin: 0;
-  color: #475569;
+  color: var(--color-text-secondary);
   max-width: 42rem;
 }
 
 .group {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 1rem;
-  padding: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  padding: 1.5rem 0;
 }
 
 .group h2 {
@@ -34,10 +32,11 @@
 }
 
 .group a {
-  color: #2563eb;
+  color: var(--color-primary);
   text-decoration: none;
 }
 
 .group a:hover {
+  color: var(--color-primary-pressed);
   text-decoration: underline;
 }

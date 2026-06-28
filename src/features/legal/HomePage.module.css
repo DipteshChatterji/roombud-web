@@ -8,7 +8,7 @@
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #64748b;
+  color: var(--color-text-secondary);
   margin: 0;
 }
 
@@ -21,7 +21,7 @@
 .lead {
   margin: 0;
   max-width: 42rem;
-  color: #475569;
+  color: var(--color-text-secondary);
   font-size: 1.05rem;
 }
 
@@ -32,10 +32,8 @@
 }
 
 .grid section {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
-  border-radius: 1rem;
-  padding: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  padding: 1.5rem 0;
 }
 
 .grid h2 {
@@ -53,16 +51,16 @@
 
 .grid li p {
   margin: 0.35rem 0 0;
-  color: #64748b;
+  color: var(--color-text-secondary);
   font-size: 0.925rem;
 }
 
 .grid a {
-  color: #0f172a;
+  color: var(--color-text);
   font-weight: 600;
   text-decoration: none;
 }
 
 .grid a:hover {
-  color: #2563eb;
+  color: var(--color-primary);
 }
